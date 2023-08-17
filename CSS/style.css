@@ -1,0 +1,135 @@
+/* Stylings less than 320 px  New Note*/
+@media (max-width: 320px) {   
+    body{
+        font-family: 'Caprasimo', italic; 
+        background-color: antiquewhite;   
+    }
+    
+    header{
+        background-color: antiquewhite;
+        margin: 0px;
+        border: 0px;    
+    }
+    h1{
+        font-size: 46px;      
+    }
+
+    a{
+        font-size: 23px;
+        margin: 5px;
+        padding: 2px;
+    }
+
+    a:link{
+        color: darkred;
+    }
+
+    a:visited{
+        color: black;
+    }
+
+    a:hover{
+        color: darkred 
+    }
+
+    #submit {
+        background-color: darkred;
+        color: antiquewhite;
+    }
+
+    #submit:hover{
+        color: darkred;
+        background-color: antiquewhite;
+    }
+    .NavBar{
+        display:grid;
+        justify-content:center;
+        flex-wrap:wrap;    
+    }
+
+    .searchBar{
+        margin: 10px;
+        padding: 2px;    
+    }
+
+    #GIFresults{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #GIFresults img{
+        margin: 5px;
+        max-height: 200px;
+        border-color: black;
+        border: 2px;
+    } 
+}
+
+/* Stylings larger than 320 px */
+
+body{
+    font-family: 'Caprasimo', italic; 
+    background-color: antiquewhite;   
+}
+
+header{
+    background-color: antiquewhite;
+    margin: 0px;
+    border: 0px;    
+}
+h1{
+    font-size: 46px;      
+}
+
+a{
+    font-size: 23px;
+    margin: 5px;
+    padding: 2px;
+}
+
+a:link{
+    color: darkred;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: darkred 
+}
+
+#submit {
+    background-color: darkred;
+    color: antiquewhite;
+}
+
+#submit:hover{
+    color: darkred;
+    background-color: antiquewhite;
+}
+
+.NavBar{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;    
+}
+
+.searchBar{
+    margin: 10px;
+    padding: 2px;    
+}
+
+#GIFresults{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#GIFresults img{
+    margin: 5px;
+    max-height: 200px;
+    border-color: black;
+    border: 2px;
+}

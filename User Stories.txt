@@ -1,0 +1,5 @@
+As a novice user, I want to search for GIFs to include on text messages and social media posts via my mobile device.
+
+As a programming student, I want to research site design for APIs via my desktop computer.
+
+As a social media influencer, I want to search for relavant GIFs to include in my content via my mobile device
